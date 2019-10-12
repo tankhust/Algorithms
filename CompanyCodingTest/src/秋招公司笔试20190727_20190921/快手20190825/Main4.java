@@ -1,0 +1,14 @@
+package 秋招公司笔试20190727_20190921.快手20190825;
+
+import java.util.Scanner;
+
+/**
+ * @author tankInternshipInterview
+ * @create 2019/08/25 16:25
+ */
+public class Main4 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int nextInt = sc.nextInt();
+    }
+}
