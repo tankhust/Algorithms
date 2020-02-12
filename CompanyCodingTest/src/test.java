@@ -6,15 +6,15 @@ import java.util.Scanner;
  */
 public class test {
     public static void main(String[] args) {
-        //todo
         Scanner sc = new Scanner(System.in);
-        int nextInt = sc.nextInt();
-        switch (nextInt) {
-
+        int n  = sc.nextInt();
+        int temp = 0;
+        StringBuilder result = new StringBuilder();
+        while(n != 0){
+            temp = n % 10;
+            result.append(temp);
+            n = (n - temp) / 10;
         }
-    }
-    public enum state{
-        dsStart1,
-        dsStart2
+        System.out.print(result);
     }
 }
