@@ -20,9 +20,9 @@ package LeetCode按题号排序;
  * @author tank
  * @create 2020/02/19 11:15
  */
-public class L11_Container_With_Most_Water {
+public class L11_M_Container_With_Most_Water {
     public static void main(String[] args) {
-        L11_Container_With_Most_Water l11 = new L11_Container_With_Most_Water();
+        L11_M_Container_With_Most_Water l11 = new L11_M_Container_With_Most_Water();
         int[] arr = new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7};
         System.out.println(l11.maxArea(arr));
     }
